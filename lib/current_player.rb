@@ -4,7 +4,7 @@ def turn_count(board)
   board.each do |turn|
     if board[place] != " " or  board[place] != ""
       count += 1
-  end
+    end
   place += 1
 end
 return count

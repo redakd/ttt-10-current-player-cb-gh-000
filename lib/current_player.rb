@@ -5,6 +5,7 @@ def turn_count(board)
     if board[count] == " " or == board[count] ""
       count += 1
   end
+  place += 1
 end
 
 def current_player(count)

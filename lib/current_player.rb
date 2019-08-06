@@ -10,7 +10,7 @@ end
 return count
 end
 
-def current_player(count)
+def current_player(board)
   if count % 2 == 1
     "X"
   else
